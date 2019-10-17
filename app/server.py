@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1_0Hd-0j0qIyJ8uaLyhnzKatBSat8LTeE?alt=media&key=AIzaSyAG_VPgGIMKbT4D5pUZ1_uVmsERucTiwMg'
 export_file_name = 'export.pkl'
 
-classes = ['ljx', 'hg', 'wyz']
+classes = ['hg', 'ljx', 'wyz']
 path = Path(__file__).parent
 
 app = Starlette()
